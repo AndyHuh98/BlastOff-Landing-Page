@@ -4,6 +4,37 @@ html, body {
     height:100%;
     overflow: 'scroll';
 }
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+}
+li {
+    display: inline;
+}
+.nav-button {
+    font-family: 'Dosis';
+    font-size: 80px;
+    color: #fdf5e6;
+    margin-right: 5%;
+}
+.nav-button a {
+    text-decoration: none;
+    color: #fdf5e6;
+}
+.nav-button:hover {
+    background-color: silver;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(25%);
+    transform: translateY(25%);
+}
 .main-container {
     background-image: linear-gradient(lightgreen, beige);
     display: flex;
